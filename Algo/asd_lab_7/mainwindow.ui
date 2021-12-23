@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2156</width>
+    <height>985</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="horizontalFrame">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>510</y>
+      <width>1400</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1400</width>
+      <height>500</height>
+     </size>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_diagram"/>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>1021</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>90</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Yu Gothic UI</family>
+             <pointsize>14</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Yu Gothic UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Size:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QComboBox" name="comboBox">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>90</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Yu Gothic UI</family>
+             <pointsize>14</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Yu Gothic UI&quot;;</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>1024</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>4096</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>16384</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>65536</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>262144</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>1048576</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>4194304</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_sort">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>90</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Yu Gothic UI</family>
+             <pointsize>14</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Yu Gothic UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Sort</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_showDiagram">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>90</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">font: 14pt &quot;Yu Gothic UI&quot;;</string>
+           </property>
+           <property name="text">
+            <string>Show diagram</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>280</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Yu Gothic UI</family>
+         <pointsize>14</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 14pt &quot;Yu Gothic UI&quot;;</string>
+       </property>
+       <property name="alternatingRowColors">
+        <bool>true</bool>
+       </property>
+       <property name="gridStyle">
+        <enum>Qt::DotLine</enum>
+       </property>
+       <property name="cornerButtonEnabled">
+        <bool>true</bool>
+       </property>
+       <row>
+        <property name="text">
+         <string>BubbleSort</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>SelectionSort</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>ShellSort</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>QuickSort</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>MergeSort</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>CountingSort</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>1024</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>4096</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>16384</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>65536</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>262144</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>1048576</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>4194304</string>
+        </property>
+       </column>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="horizontalFrame_2">
+    <property name="geometry">
+     <rect>
+      <x>1040</x>
+      <y>10</y>
+      <width>1400</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1400</width>
+      <height>500</height>
+     </size>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_diagram_2"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
